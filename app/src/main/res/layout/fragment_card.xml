@@ -6,74 +6,50 @@
     tools:context=".fragments.CardFragment"
     android:orientation="vertical"
     android:paddingBottom="@dimen/common_padding_default">
-
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/common_padding_min"
-        android:layout_marginEnd="@dimen/common_padding_min"
         android:layout_marginTop="@dimen/common_padding_min"
-        android:clickable="true"
-        android:focusable="true">
+        android:layout_marginEnd="@dimen/common_padding_min">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="@dimen/common_padding_none"
-            android:paddingTop="@dimen/common_padding_default"
-            android:paddingEnd="@dimen/common_padding_default">
+            android:layout_height="wrap_content">
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/imgCardSmall"
-                android:layout_width="@dimen/card_img_size"
-                android:layout_height="@dimen/card_img_size"
-                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imgCardLarge"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/item_img_height"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnFirst"
+                android:id="@+id/btnFirstLarge"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/common_padding_min"
-                android:paddingStart="@dimen/common_padding_min"
-                android:paddingEnd="@dimen/common_padding_min"
+                android:layout_marginStart="@dimen/common_padding_min"
+                android:layout_marginBottom="@dimen/common_padding_min"
                 android:text="@string/status_enabled"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/imgCardSmall" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnSecond"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/status_default"
-                app:layout_constraintBottom_toBottomOf="@id/btnFirst"
-                app:layout_constraintStart_toEndOf="@id/btnFirst"
-                app:layout_constraintTop_toTopOf="@id/btnFirst" />
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
-                android:id="@+id/tvTitle"
+                android:id="@+id/tvTitleLarge"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/common_padding_default"
-                android:layout_marginEnd="@dimen/common_padding_default"
+                android:layout_marginEnd="@dimen/common_padding_middle"
                 android:text="@string/card_title_demo"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
-                app:layout_constraintEnd_toStartOf="@id/imgCardSmall"
+                app:firstBaselineToTopHeight="@dimen/card_baseline_topTitle"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@id/imgCardLarge" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:text="@string/card_message_demo_small"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
-                app:layout_constraintBottom_toTopOf="@id/btnFirst"
-                app:layout_constraintEnd_toEndOf="@id/tvTitle"
-                app:layout_constraintStart_toStartOf="@id/tvTitle"
-                app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
