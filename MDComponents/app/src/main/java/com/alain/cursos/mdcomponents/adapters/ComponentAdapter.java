@@ -59,7 +59,7 @@ public class ComponentAdapter extends RecyclerView.Adapter<ComponentAdapter.View
         return mComponents.size();
     }
 
-    public void add(Component component){
+    public void add(Compone=nt component){
         if (!mComponents.contains(component)){
             mComponents.add(component);
             notifyItemInserted(mComponents.size() - 1);
