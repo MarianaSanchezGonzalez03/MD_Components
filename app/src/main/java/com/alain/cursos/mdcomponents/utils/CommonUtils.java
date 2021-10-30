@@ -26,17 +26,7 @@ import com.alain.cursos.mdcomponents.fragments.TextFieldFragment;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import com.alain.cursos.mdcomponents.fragments.AlertDialogFragment;
-import com.alain.cursos.mdcomponents.fragments.AppBarFragment;
-import com.alain.cursos.mdcomponents.fragments.BottonNavigationBarFragment;
-import com.alain.cursos.mdcomponents.fragments.ButtonFragment;
-import com.alain.cursos.mdcomponents.fragments.CardFragment;
-import com.alain.cursos.mdcomponents.fragments.CheckBoxFragment;
-import com.alain.cursos.mdcomponents.fragments.FloatingActionButtonFragment;
-import com.alain.cursos.mdcomponents.fragments.MenuFragment;
-import com.alain.cursos.mdcomponents.fragments.PickerFragment;
-import com.alain.cursos.mdcomponents.fragments.SnackBarFragment;
-import com.alain.cursos.mdcomponents.fragments.TextFieldFragment;
+
 public class CommonUtils {
 
     public static void setFragment(AppCompatActivity activity, String nameFragment, int contentRes){
