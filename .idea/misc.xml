@@ -3,7 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_app_bar.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_app_bar_bottom.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_app_bar_top.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_button.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_button_navigation_bar.xml" value="0.1" />
         <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_card.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_check_box.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_full_screen_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_menu.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_picker.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_snack_bar.xml" value="0.22" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/fragment_text_field.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/item_component.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/layout/item_menu_dropdown.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/menu/menu_buttom_nav.xml" value="0.22" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/menu/menu_scroll.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/52813/Downloads/018 MD Components-Base (1)/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

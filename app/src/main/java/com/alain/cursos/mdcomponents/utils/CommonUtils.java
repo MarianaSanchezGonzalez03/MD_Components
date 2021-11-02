@@ -11,7 +11,6 @@ package com.alain.cursos.mdcomponents.utils;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-
 import com.alain.cursos.mdcomponents.fragments.AlertDialogFragment;
 import com.alain.cursos.mdcomponents.fragments.AppBarFragment;
 import com.alain.cursos.mdcomponents.fragments.BottonNavigationBarFragment;
@@ -23,9 +22,6 @@ import com.alain.cursos.mdcomponents.fragments.MenuFragment;
 import com.alain.cursos.mdcomponents.fragments.PickerFragment;
 import com.alain.cursos.mdcomponents.fragments.SnackBarFragment;
 import com.alain.cursos.mdcomponents.fragments.TextFieldFragment;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 
 public class CommonUtils {
 
